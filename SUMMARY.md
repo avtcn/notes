@@ -9,6 +9,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Vimba SDK安装](vimbasdk/installation.md)
 	* [Windows平台优化](vimbasdk/optimization.md)
 	* [Vimba 例程介绍](vimbasdk/samples.md)
+	* [Vimba C++ API 移植方法](vimbasdk/vimbacppport.md)
 * [AVT相机使用技巧](skills/README.md)
 	* [千兆网相机使用及优化](skills/gige.md)
 	* [Camera Link](skills/section2.2.md)
