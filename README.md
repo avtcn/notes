@@ -1,6 +1,6 @@
 # 前言  
 
-This is public technical documents by AVTCN AE team.   
+This is public technical documents portal by AVTCN AE team.   
 
 Visit here: https://love2.io/@avtcn/doc/notes/
 
