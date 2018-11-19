@@ -18,3 +18,4 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Halcon与AVT相机](skills/section2.3.md)
 	* [Labview与AVT相机](skills/section2.3.md)
 * [常见问题列表](Normal_Issue/ReadMe.md)
+        * [相机误触发](Normal_Issue/Trigger_error.md)   
