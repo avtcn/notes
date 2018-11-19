@@ -17,3 +17,4 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [CoaXPress](skills/section2.3.md)
 	* [Halcon与AVT相机](skills/section2.3.md)
 	* [Labview与AVT相机](skills/section2.3.md)
+* [常见问题列表](Normal_Issue/README.md)
