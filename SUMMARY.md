@@ -20,8 +20,8 @@ This is a technical book for AVT cameras by AVTCN AE.
 * [常见问题列表](Normal_Issue/ReadMe.md)
 	* [相机误触发](Normal_Issue/Trigger_error.md)
 	* [通过交换机连接多个相机](Normal_Issue/Connect_through_switch.md)
-	* [Win7 64位系统安装报错或找不到相机](Normal_Issue/Win7_X64_Install.md)
-	
+	* [Win7 64位找不到相机或安装驱动报错](Normal_Issue/Win7_X64_Install.md)
+	* [相机坏了如何维修](Normal_Issue/Repair.md)
 	
 	
 	
