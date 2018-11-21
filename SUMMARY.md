@@ -23,6 +23,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Win7 64位找不到相机或安装驱动报错](Normal_Issue/Win7_X64_Install.md)
 	* [相机坏了如何维修](Normal_Issue/Repair.md)
 	* [彩色相机白平衡设置方法](Normal_Issue/White_Balance.md)
-	
+	* [如何配置相机IP](Normal_Issue/White_Balance.md)
+	* [保存用户设置到相机](Normal_Issue/White_Balance.md)
 	
 	
