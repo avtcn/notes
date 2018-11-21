@@ -11,7 +11,7 @@
 在Brightness、ROI等选项卡页面设置的参数值和All选项卡页面里的参数值是一一对应并且同步的，只需要改其中一个地方的参数就可以了
 ![GitHub](userset1.png "GitHub,Social Coding")
 ### 2.修改并保存用户设置
-![GitHub](userset0.png "GitHub,Social Coding")
+![GitHub](userset2.png "GitHub,Social Coding")
 #### 不同的相机支持的UserSet数量可能不同，每个UserSet就是保存在相机里（ROM）的一套配置参数
 只修改参数不点保存，会影响当前运行参数（放在相机RAM），但是断电重启后参数失效
 “UserSetDefaultSelector”选择初始化设置参数,相机上电启动时会把初始化设置参数导入到当前运行参数（RAM）
