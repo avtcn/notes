@@ -26,5 +26,5 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [如何配置相机IP](Normal_Issue/IP_Cofig.md)
 	* [修改并保存相机参数](Normal_Issue/Save_Userset.md)
 	* [恢复相机出厂设置/默认参数](Normal_Issue/load_Default.md)
-	* [如何升级/导入相机固件（Firmware_Upgrade）](Normal_Issue/load_Default.md)
+	* [如何升级/导入相机固件（Firmware_Upgrade）](Normal_Issue/Firmware_Upgrade.md)
 	
