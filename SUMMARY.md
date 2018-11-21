@@ -24,6 +24,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [相机坏了如何维修](Normal_Issue/Repair.md)
 	* [彩色相机白平衡设置方法](Normal_Issue/White_Balance.md)
 	* [如何配置相机IP](Normal_Issue/IP_Cofig.md)
-	* [保存用户设置到相机](Normal_Issue/White_Balance.md)
+	* [修改并保存相机参数](Normal_Issue/Save_Userset.md)
+	* [恢复相机出厂设置/默认参数](Normal_Issue/Save_Userset.md)
 	
 	
