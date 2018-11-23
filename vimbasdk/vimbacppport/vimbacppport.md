@@ -24,7 +24,7 @@ Allied Vision Vimba SDK 2.1.3 C++ 代码移植示例。
 2. 修改项目包含的头文件及库文件目录以包含Vimba C++用到的头文件及库，具体可以查看vimbacppex.vcxproj和vimbacppex.vcxproj.filters中的修改.
 3. 在wimbacppexDlg.h中增加唯一的Vimba SDK实例 ApiController.
 4. 测试如下Vimba C++代码是否能够成功运行：
-```
+```cpp
 void CvimbacppexDlg::OnBnClickedButtonVimbaVersion()
 {
 	apiController.StartUp();
