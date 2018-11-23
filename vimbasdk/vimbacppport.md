@@ -10,7 +10,7 @@ Allied Vision Vimba SDK 2.1.3 C++ 代码移植示例。
 
 ## 需要软件
 * Visual Studio Community 2017 (http://www.visualstudio.com/) 或者类似版本
-* Vimba SDK 2.1.3 (https://www.alliedvision.com/en/products/software.html)或者类似版本
+* Vimba SDK 2.1.3 (https://www.alliedvision.com/en/products/software.html) 或者类似版本
 
 ## 使用方法
 可以使用Beyond Compare或者WinMerg(http://winmerge.org/) 比较两个下面两个目录：
