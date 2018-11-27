@@ -5,8 +5,16 @@ Allied Vision工业相机一般可以使用三种模式进行拍照:
 3. 硬件触发拍照(Hardware Trigger)
 
 
-## Vimba C++ 例子程序介绍
-Allied Vision Vimba SDK 2.1.3 C++ 代码移植示例。
+![GitHub]( vimba-3-models.png "Allied Vision Vimba Viewer 3 photo capturing modes settings") 
+上图中
+
+
+
+
+## Vimba C++ API 实例 - 三种拍照模式编程方法
+以下是基于Allied Vision Vimba SDK 2.1.3 C++ API 进行相机拍摄模式编程的例子。
+
+![GitHub]( Joe-Demo-Three-Modes-Vimba-CPlusPlus.png "Allied Vision Camera 3 photo capturing modes") 
 
 
 ## 例子代码
