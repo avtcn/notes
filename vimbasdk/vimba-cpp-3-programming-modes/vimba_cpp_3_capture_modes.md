@@ -11,10 +11,11 @@ Allied Vision工业相机一般可以使用三种模式进行拍照:
 * Line1 - 硬件触发1
 * Line2 - 硬件触发2
 * FixedRate - 固定帧率(自由采集)
-* Software - 软件触发拍照
+* Software - 软件触发拍照  
 
-
-
+其中FixedRate是Freerun的一种特殊模式-以确定的频率进行拍照，例如1fps代表一秒拍摄一张等； Line1和Line2表示相机有两根触发线，用户可以任选
+其一来接外部触发信息源进行图像拍摄；Software模式是指相机处理待命状态，当通过以太网（例如GigE千兆网相机）连接相机时，可以通过 Vimba SDK的
+相应API向相机发出拍照指令，然后获得一张相应的照片。
 
 
 ## Vimba C++ API 实例 - 三种拍照模式编程方法
