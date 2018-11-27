@@ -6,7 +6,13 @@ Allied Vision工业相机一般可以使用三种模式进行拍照:
 
 
 ![GitHub]( vimba-3-models.png "Allied Vision Vimba Viewer 3 photo capturing modes settings") 
-上图中
+上图中是Vimba Viewer中显示的一款相机支持的拍照模式：
+* Freerun - 自由采集
+* Line1 - 硬件触发1
+* Line2 - 硬件触发2
+* FixedRate - 固定帧率(自由采集)
+* Software - 软件触发拍照
+
 
 
 
