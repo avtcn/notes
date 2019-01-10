@@ -34,4 +34,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [恢复相机出厂设置/默认参数](Normal_Issue/load_Default.md)
 	* [如何升级/导入相机固件（Firmware_Upgrade）](Normal_Issue/Firmware_Upgrade.md)
 	* [相机坏点判定方法及坏点校正工具使用](bad_pixels_tools/bad_pixels_tools.md)
+	* [千兆网相机稳定性判断方法-Vimba Viewer查看软件](skills/how_to_check_gige_network_statbility.md)
+	
+	
 	
