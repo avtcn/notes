@@ -8,7 +8,7 @@
 可以根据下面图片中的设置参数及描述来确认你的网卡是否使用了Intel原装驱动程序。
 如果你的电脑上曾经安装过其它品牌的工业相机驱动，有很大可能它们会改写这个驱动及优化插件(Filter)，所以一定要检查确认它们已经被禁用或者删除，
 以免影响AVT工业相机的性能。
-![Intel Networl Adapter Settings](network_settings_normal_demo.png)
+![Intel Networl Adapter Settings](network_settings_normal_demo_900.png)
 
 
 ## 下载Intel网卡的原厂驱动程序安装包
