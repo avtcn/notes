@@ -26,7 +26,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 * [常见问题列表](Normal_Issue/ReadMe.md)
 	* [相机误触发](Normal_Issue/Trigger_error.md)
 	* [通过交换机连接多个相机](Normal_Issue/Connect_through_switch.md)
-	* [安装/更新Intel原厂网卡驱动程序](Normal_Issue/Win7_X64_Install.md)
+	* [安装/更新Intel原厂网卡驱动程序](Normal_Issue/Intel_Network_Adapter_AVT_Cameras/Reinstall_Intel_Network_Adapter_Driver.md)
 	* [Win7 64位找不到相机或安装驱动报错](Normal_Issue/Intel_Network_Adapter_AVT_Cameras/Reinstall_Intel_Network_Adapter_Driver.md)
 	* [相机坏了如何维修](Normal_Issue/Repair.md)
 	* [彩色相机白平衡设置方法](Normal_Issue/White_Balance.md)
