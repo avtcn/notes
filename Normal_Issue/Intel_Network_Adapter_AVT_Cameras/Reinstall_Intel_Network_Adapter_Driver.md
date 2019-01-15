@@ -36,7 +36,8 @@
 
 ## 安装Intel原装网卡驱动
 在最开始的介绍中，如果你已经下载了Intel原装驱动安装包，可以直接点击运行，例如`PROWinx64.exe`.
-注意要使用管理员权限来运行此程序，按提示一直安装成功为止。可以参考详细的Intel驱动安装说明：
+注意要使用管理员权限来运行此程序，按提示一直安装成功为止，然后重新启动电脑即可生效。
+也可以参考详细的Intel驱动手动安装说明：
 
 > How to Manually Install Intel® Network Adapter Drivers in Windows*
 > https://www.intel.com/content/www/us/en/support/articles/000022174/network-and-i-o.html 
