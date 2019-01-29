@@ -1,7 +1,9 @@
 # AVT_IP_Config AVT多相机IP配置工具
 
 ## 简介
-
+### 主界面及主要功能如下：
+![GitHub](ipConfig1.jpg "GitHub,Social Coding")
+![GitHub](ipConfig2.jpg "GitHub,Social Coding")
 
 ## 下载连接
 
