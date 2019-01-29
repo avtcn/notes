@@ -5,7 +5,7 @@
 ![GitHub](ipConfig1.jpg "GitHub,Social Coding")
 ![GitHub](ipConfig2.jpg "GitHub,Social Coding")
 
-## 下载连接
+## 下载及使用AVT相机IP配置工具
 
 点击下载zip压缩文件，然后解压到一个目录，并运行 `AVT_IPCofig.exe`
 ![GitHub](ipConfig3.jpg "GitHub,Social Coding")
