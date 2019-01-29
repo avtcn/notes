@@ -4,4 +4,4 @@
 ![GitHub](load_default.png "GitHub,Social Coding")
 
 ### 另一种方式是通过升级/导入固件的方式，具体可以参考《如何升级/导入固件（Firmware_Upgrade）》
-[《如何升级/导入固件（Firmware_Upgrade）》](Firmware_Upgrade.md)
+[《如何升级/导入固件（Firmware_Upgrade）》](FirmwareUpgrade/Firmware_Upgrade.md)
