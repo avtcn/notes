@@ -12,3 +12,6 @@
 
 ## 补丁下载地址：
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=46148
+
+补丁文件百度盘下载地址： [Windows 7 for x64-based Systems (KB3033929)](https://pan.baidu.com/s/1xzrCMC49ALuG5jBoZ1EGMQ)
+
