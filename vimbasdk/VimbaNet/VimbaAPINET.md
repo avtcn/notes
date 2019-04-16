@@ -19,6 +19,7 @@
 ### 引用VimbaNETAPI的命名空间
 
 ![GitHub](NetAPI6.png "GitHub,Social Coding")
+
 使用Vimba .NET API的流程就介绍到这里了
 
 ### 其它信息
