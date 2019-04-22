@@ -39,6 +39,7 @@ void	     AcquireSingleImageClose();
 #### 修改示例
 在原来的例子程序中，我将以上三个函数设计成三个按钮来对应。代码可以从下面链接下载： 
 [SynchronousGrab-CPP-OnlyTakePhoto.zip](SynchronousGrab-CPP-OnlyTakePhoto.zip "优化版本代码"). 
+[直接下载链接](https://github.com/avtcn/notes/raw/master/vimbasdk/vimba-cpp-synchronous-grab-mfc-refine/SynchronousGrab-CPP-OnlyTakePhoto.zip)
 
 ![](1.png)
 *Step1, Step2, Step3 分别对应打开相机，拍照，和关闭相机。*
