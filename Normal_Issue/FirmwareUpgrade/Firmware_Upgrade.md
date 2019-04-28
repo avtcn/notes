@@ -4,7 +4,9 @@
 ## 1. 确保网络设置/相机连接正常
 
 ## 2. 双击运行附件所带的版本升级软件
-![GitHub](fw1.png "GitHub,Social Coding")
+![GitHub](fw1.png "GitHub,Social Coding")  
+
+以上相机固件可以从Allied Vision官网进行[下载](http://china.alliedvision.com/cn/%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81/%E5%9B%BA%E4%BB%B6%E4%B8%8B%E8%BD%BD.html)。
 
 ## 3. 选择“下一步”，再“下一步”，出现如下界面
 
