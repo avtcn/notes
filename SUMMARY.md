@@ -25,6 +25,8 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Labview与AVT相机](skills/section2.3.md)
 	* [外部触发使用技巧](Normal_Issue/mako-gige-external-trigger-strobe-circuits/external-trigger-circuit.md)
 	* [AVT多相机IP配置工具](skills/avt_ip_config/avt_ip_config.md)
+	* [Manta相机的EdgeFilter参数](skills/avt_ip_config/avt_ip_config.md)
+	* [LUT、Gamma参数设置](skills/avt_ip_config/avt_ip_config.md)
 * [常见问题列表](Normal_Issue/ReadMe.md)
 	* [相机误触发](Normal_Issue/TriggerIssue/Trigger_error.md)
 	* [通过交换机连接多个相机](Normal_Issue/ConnectThroughSwitch/Connect_through_switch.md)
