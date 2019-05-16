@@ -10,6 +10,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Windows平台优化](vimbasdk/optimization.md)
 	* [Vimba 例程介绍](vimbasdk/samples.md)
 	* [Vimba C++ API 移植方法](vimbasdk/vimbacppport/vimbacppport.md)	
+	* [Vimba C++ API标准接口：Open/Start/Capture/Stop/Close](vimbasdk/vimbacppport/vimbacppport.md)	
 	* [Vimba C#/.NET API 移植方法](vimbasdk//VimbaNet/VimbaAPINET.md)	
 	* [TODO: Vimba C++ API 三种拍照模式编程实例](vimbasdk/vimba-cpp-3-programming-modes/vimba_cpp_3_capture_modes.md)
 	* [Vimba C++ API - SynchronousGrab快速拍照时间测试](vimbasdk/vimba-cpp-synchronous-grab-mfc-refine/cpp_synchronousgrab_quicker.md)
