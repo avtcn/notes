@@ -28,8 +28,8 @@ private:
 	CameraPtr m_pCamera;
 	int       m_nCameraMode;
 
-	VimbaSystem& sys; 
-	FrameObserver*      m_pFrameObserver;           // Every camera has its own frame observer
+	VimbaSystem&    sys; 
+	FrameObserver*  m_pFrameObserver; // Every camera has its own frame observer
 
 	bool SetInternalMode(int mode); 
 	bool TriggerSoftwareSignal(); 
@@ -67,7 +67,7 @@ int main( int argc, char* argv[] )
 	std::queue<long long> queueTickets;
 
 	// Single Vimba SDK Instance
-	VimbaSystem& sys = VimbaSystem::GetInstance();           // Get a reference to the VimbaSystem singleton
+	VimbaSystem& sys = VimbaSystem::GetInstance(); // Get a reference to the VimbaSystem singleton
 	sys.Startup();
 
 	SciCamera camera; 
@@ -132,8 +132,7 @@ int main( int argc, char* argv[] )
 
 ## 代码
 此例子代码下载链接： 
-[VimbaCPP-OPTMV-API.zip](VimbaCPP-OPTMV-API.zip)  
-https://github.com/avtcn/notes/raw/master/vimbasdk/vimba-cpp-3-programming-modes-api-console/VimbaCPP-OPTMV-API.zip
+[VimbaCPP-OPTMV-API.zip](https://github.com/avtcn/notes/raw/master/vimbasdk/vimba-cpp-3-programming-modes-api-console/VimbaCPP-OPTMV-API.zip)  
 
 
 上述代码请解压缩到Vimba C++例子目录中，例如：  
