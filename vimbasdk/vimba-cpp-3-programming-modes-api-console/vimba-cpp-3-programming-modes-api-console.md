@@ -131,7 +131,11 @@ int main( int argc, char* argv[] )
 
 
 ## 代码
-此例子代码下载： 
+此例子代码下载链接： 
+[VimbaCPP-OPTMV-API.zip](VimbaCPP-OPTMV-API.zip)
+
+上述代码请解压缩到Vimba C++例子目录中，例如：  
+`C:\Users\Public\Documents\Allied Vision\Vimba_2.1\VimbaCPP_Examples\VimbaCPP-OPTMV-API`
 
 
 运行结果如下，可以通过回车键进行中止：
