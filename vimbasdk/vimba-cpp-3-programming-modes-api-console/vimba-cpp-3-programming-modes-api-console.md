@@ -1,4 +1,4 @@
-Vimba C++ API 三种触发模式编程接口 - Open/Start/Shot/Stop/Close
+Vimba C++ API 三种触发模式编程接口 API Console - OpenCamera/StartAcquire/Shot/StopAquire/CloseCamera
 ---
 
 ## 简介
