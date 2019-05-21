@@ -132,7 +132,9 @@ int main( int argc, char* argv[] )
 
 ## 代码
 此例子代码下载链接： 
-[VimbaCPP-OPTMV-API.zip](VimbaCPP-OPTMV-API.zip)
+[VimbaCPP-OPTMV-API.zip](VimbaCPP-OPTMV-API.zip)  
+https://github.com/avtcn/notes/raw/master/vimbasdk/vimba-cpp-3-programming-modes-api-console/VimbaCPP-OPTMV-API.zip
+
 
 上述代码请解压缩到Vimba C++例子目录中，例如：  
 `C:\Users\Public\Documents\Allied Vision\Vimba_2.1\VimbaCPP_Examples\VimbaCPP-OPTMV-API`
