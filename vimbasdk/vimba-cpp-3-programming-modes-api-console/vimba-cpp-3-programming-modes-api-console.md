@@ -123,9 +123,9 @@ int main( int argc, char* argv[] )
 }
 ```
 上述代码使用SciCamera类打开一个AVT相机，并选择如下任一种采集模式进行图像采集：
-* Software trigger - 软件触发  
-* Hardware trigger - 硬件触发 
-* Free Run trigger - 自由采集/自动触发
+* `Software trigger` - 软件触发  
+* `Hardware trigger` - 硬件触发 
+* `Free Run trigger` - 自由采集/自动触发
 
 可以调用函数`camera.StartAcquire(mode)`进行相机模式设置。
 
