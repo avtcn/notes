@@ -52,16 +52,18 @@ private:
 ```CPP
 int main( int argc, char* argv[] )
 {
-    std::cout << "\n";
-    std::cout << "//////////////////////////////////////////////////////////////\n";
-    std::cout << "/// Vimba C++ API Example - 3 Trigger Modes                ///\n";
-    std::cout << "/// 2019-05-17 17:31:50 by Joe Ge                          ///\n";
-    std::cout << "///      Intilization version.                             ///\n";
-    std::cout << "/// 2019-05-20 13:34:56 by Joe Ge                          ///\n";
-    std::cout << "///      FreeRun mode is as quicker as Vimba Viewer.       ///\n";
-    std::cout << "/// 2019-05-20 15:03:37 by Joe Ge                          ///\n";
-    std::cout << "///      Save photo into file with raw data format.        ///\n";
-    std::cout << "//////////////////////////////////////////////////////////////\n\n";
+	std::cout << "\n";
+	std::cout << "//////////////////////////////////////////////////////////////\n";
+	std::cout << "/// Vimba C++ API Example - 3 Trigger Modes                ///\n";
+	std::cout << "///                                                        ///\n";
+	std::cout << "/// 2019-05-17 17:31:50 by Joe Ge                          ///\n";
+	std::cout << "///      Intilization version.                             ///\n";
+	std::cout << "/// 2019-05-20 13:34:56 by Joe Ge                          ///\n";
+	std::cout << "///      FreeRun mode is as quicker as Vimba Viewer.       ///\n";
+	std::cout << "/// 2019-05-20 15:03:37 by Joe Ge                          ///\n";
+	std::cout << "///      Save photo into file with raw data format.        ///\n";
+	std::cout << "///                                                        ///\n";
+	std::cout << "//////////////////////////////////////////////////////////////\n\n";
 
 	// FPS calculation
 	std::queue<long long> queueTickets;
