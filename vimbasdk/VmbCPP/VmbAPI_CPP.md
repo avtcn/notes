@@ -15,7 +15,7 @@ MFC（VS2010）+ Vimba API编程实例
 ![](ImageFolder/2.png)
 ## 1.3 删掉对话框界面不必要的的控件，并启动程序
 ![](ImageFolder/3.png)
-启动后再停止，进行下一步
+#### 启动后再停止，进行下一步
 
 # 2.	调用VmbAPI相关的库
 ## 2.1	将VmbAPI相关的文件拷到工程文件夹（这里主要是为了后面采用相对引用，方便程序的移植）
@@ -76,18 +76,18 @@ MFC（VS2010）+ Vimba API编程实例
 ![](ImageFolder/24.png)
 解决办法：报错的三个文件属性设置为“不使用预编译头”
 ![](ImageFolder/25.png)
-4.2.2再次启动程序，会报另一个错误
+### 4.2.2再次启动程序，会报另一个错误
 ![](ImageFolder/26.png)
 解决办法：附加包含目录增加拷贝进来的“Source”文件夹
 ![](ImageFolder/27.png)
 这里说明一下，如果步骤4.1.1直接把4.1.3需要的6个文件拷到与“VmbAPI_MFC.h”同一目录下，则不会报相关错误
 
-4.3	调用移植过来的代码
-4.3.1简单说明：例程移植过来的”ApiController”类的定位和原有的”AVT_Cameras”类是一样的
+## 4.3	调用移植过来的代码
+### 4.3.1简单说明：例程移植过来的”ApiController”类的定位和原有的”AVT_Cameras”类是一样的
 ![](ImageFolder/28.png)
-4.3.2删除“AVT_Cameras”类，并引用“ApiController”
+### 4.3.2删除“AVT_Cameras”类，并引用“ApiController”
 ![](ImageFolder/29.png)
-4.4 接下来就是主界面添加一些控件、以及调用”ApiController”类的一些方法，这里不再详细描述
+## 4.4 接下来就是主界面添加一些控件、以及调用”ApiController”类的一些方法，这里不再详细描述
 最终实现的效果如下图：
 ![](ImageFolder/30.png)
 [代码下载地址：](https://github.com/avtcn/notes/blob/master/vimbasdk/VmbCPP/VmbAPI_MFC.zip)
