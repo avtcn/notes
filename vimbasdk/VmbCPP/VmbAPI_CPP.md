@@ -6,9 +6,10 @@ MFC（VS2010）+ Vimba API编程实例
 
 # 1.	准备工作
 ## 1.1 首先，确认已完全安装Vimba SDK
-image1
+[](ImageFolder/1.png) 
+
 安装可以参考：
-[VimbaCPP-OPTMV-API.zip](https://github.com/avtcn/notes/raw/master/vimbasdk/vimba-cpp-3-programming-modes-api-console/VimbaCPP-OPTMV-API.zip)  
+[Windows平台下安装Vimba SDK](https://github.com/avtcn/notes/blob/master/vimbasdk/installation.md)  
 请留意“Target Folder”以及“Examples Target Folder”的位置
 ## 1.2 新建一个MFC 对话框工程，命名为“VmbAPI_MFC”
 image2
