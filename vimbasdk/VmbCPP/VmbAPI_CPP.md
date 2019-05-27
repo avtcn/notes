@@ -94,7 +94,7 @@ MFC（VS2010）+ Vimba API编程实例
 [代码下载地址](https://github.com/avtcn/notes/blob/master/vimbasdk/VmbCPP/VmbAPI_MFC.zip)
 
 ### 修改历史
-#### 1.By Lemon 2019.05.24 Manta G125-B测试通过
+#### 1.By Lemon 2019.05.24 Manta G-125B测试通过
 
 ### 联系方式
-可以通过AVT技术邮箱：support@alliedvision.com 联系我们。
+可以通过AVT技术邮箱：support@alliedvision.com 联系我们
