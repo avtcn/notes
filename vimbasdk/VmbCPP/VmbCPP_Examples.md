@@ -40,6 +40,10 @@ https://github.com/avtcn/notes/blob/master/vimbasdk/VmbCPP/MFC_VmbAPI.md
 ![](ImageFolder2/10.png)
 代码链接：https://github.com/avtcn/notes/blob/master/vimbasdk/VmbCPP/MFC.zip
 
+### 修改历史
+#### 1.By Lemon 2019.05.24 Manta G-125B 测试通过
 
+### 联系方式
+可以通过AVT技术邮箱：support@alliedvision.com 联系我们
 
 
