@@ -1,4 +1,4 @@
-# AVT_IP_Config AVT多相机IP配置工具
+# AVT多相机IP配置工具 - AVT_IP_Config
 
 ## 简介
 ### 主界面及主要功能如下：
