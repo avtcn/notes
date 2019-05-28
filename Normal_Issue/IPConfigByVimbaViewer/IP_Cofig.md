@@ -1,4 +1,4 @@
-# 使用Vimba viewer配置相机IP
+# 使用Vimba viewer配置相机IP - Vimba Viewer
 ## 1. 进入IP配置界面 
 ### 1.1 右键相机列表上的相机，会弹出一个菜单，如下图所示：
 ![GitHub](IP1.png "GitHub,Social Coding")
