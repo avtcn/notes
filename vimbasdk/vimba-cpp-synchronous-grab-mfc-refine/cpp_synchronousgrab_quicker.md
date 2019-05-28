@@ -3,11 +3,11 @@ VimbaCPP_Examples\SynchronousGrab\MFC例子程序中 AcquireSingleImage() 函数
 
 ### 背景
 VimbaCPP_Examples\SynchronousGrab\MFC 例子程序使用  AcquireSingleImage() 函数从相机中同步取图：        
-```
+```CPP
 err = m_pApiController->AcquireSingleImage( m_cameras[nRow], pFrame );
 ```
 此处的AcquireSingleImage()函数做了如下动作：
-```
+```CPP
 VmbErrorType res = m_system.OpenCameraByID( ... ); 
 res = m_pCamera->AcquireSingleImage( rpFrame, 2000 );
 m_pCamera->Close(); 
@@ -24,11 +24,11 @@ m_pCamera->Close();
 
 #### 修改方法
 这里我将原来的
-```
+```CPP
 err = m_pApiController->AcquireSingleImage( m_cameras[nRow], pFrame );
 ```
 函数，分解为下面三个函数：
-```
+```CPP
 VmbErrorType AcquireSingleImageOpen(const std::string &rStrCameraID);
 VmbErrorType AcquireSingleImageGrab(FramePtr &rpFrame);
 void	     AcquireSingleImageClose();
