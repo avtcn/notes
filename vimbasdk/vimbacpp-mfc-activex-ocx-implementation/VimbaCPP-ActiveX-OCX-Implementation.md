@@ -16,7 +16,7 @@ https://github.com/avtcn/notes/raw/master/vimbasdk/vimbacpp-mfc-activex-ocx-impl
 测试C#代码及工程文件下载：[`ActivX-OCX-CSharp-Test.zip`](ActivX-OCX-CSharp-Test.zip)   
 https://github.com/avtcn/notes/raw/master/vimbasdk/vimbacpp-mfc-activex-ocx-implementation/ActivX-OCX-CSharp-Test.zip
 
-装上述生成的ActiveX OCX控件应用于C# Forms应用中。运行此程序时，系统上的第一个Allied Vision相机将实时显示它的图片在这个控件上。
+将上述生成的ActiveX OCX控件应用于C# Forms应用中。运行此程序时，系统上的第一个Allied Vision相机将实时显示它的图片在这个控件上。
 
 
 ## 实现效果
