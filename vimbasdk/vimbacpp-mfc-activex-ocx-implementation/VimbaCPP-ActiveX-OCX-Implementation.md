@@ -23,4 +23,5 @@ Vimba C++ API 实现MFC ActiveX OCX 控件并用于 VB/C#等
 ![](screenshot.png)  
 
 动态运行效果图： 
+
 ![](vimba-activex-ocx-for-CSharp.gif)
