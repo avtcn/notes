@@ -46,6 +46,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [相机坏点判定方法及坏点校正工具使用](bad_pixels_tools/bad_pixels_tools.md)
 	* [千兆网相机稳定性判断方法-Vimba Viewer查看软件](skills/how_to_check_gige_network_statbility.md)
 	* [相机2D尺寸图、3D尺寸图](Normal_Issue/AVT-Cameras-2D-3D-Datasheets/AVT-Cameras-2d-3d-datasheets.md)
+	* [在Matlab上使用AVT工业相机的注意事项](Normal_Issue/AVT-Cameras-2D-3D-Datasheets/AVT-Cameras-2d-3d-datasheets.md)
 	
 	
 	
