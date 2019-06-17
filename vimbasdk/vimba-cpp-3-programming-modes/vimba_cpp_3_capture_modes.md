@@ -1,4 +1,4 @@
-# Vimba C++ API 三种拍照模式编程实例
+# Vimba C++ API 三种拍照模式编程实例 - MFC GUI
 Allied Vision工业相机一般可以使用三种模式进行拍照:
 1. 自由采集(Free Run)
 2. 软件触发拍照(Software Trigger)
