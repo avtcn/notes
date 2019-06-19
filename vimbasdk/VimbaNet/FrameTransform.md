@@ -1,6 +1,22 @@
 ## NET环境下AVT相机常用格式转换（Frame转Bmp）
-         '''
-         switch (frame.PixelFormat)
+        ```CPP
+                private Image ConvertFrame1(Frame frame)
+        {
+            if (null == frame)
+            {
+                throw new ArgumentNullException("frame");
+            }
+
+            //Check if the image is valid
+            if (VmbFrameStatusType.VmbFrameStatusComplete != frame.ReceiveStatus)
+            {
+                throw new Exception("Invalid frame received. Reason: " + frame.ReceiveStatus.ToString());
+            }
+            // m_Cam.QueueFrame(frame);
+
+            //Convert raw frame data into image (for image display)
+            Image image = null;
+            switch (frame.PixelFormat)
             {
                 case VmbPixelFormatType.VmbPixelFormatMono8:
                     {
@@ -37,7 +53,6 @@
 
                     }
                     break;
-                    '''
 
                 case VmbPixelFormatType.VmbPixelFormatBgr8:
                 case VmbPixelFormatType.VmbPixelFormatRgb8:
@@ -53,3 +68,7 @@
                 default:
                     throw new Exception("Current pixel format is not supported by this example (only Mono8 and BRG8Packed are supported).");
             }
+
+            return image;
+        }
+         ```
