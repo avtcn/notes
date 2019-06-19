@@ -1,6 +1,7 @@
 ## NET环境下AVT相机常用格式转换（Frame转Bmp）
-        ```CPP
-                private Image ConvertFrame1(Frame frame)
+       
+```CPP
+        private Image ConvertFrame1(Frame frame)
         {
             if (null == frame)
             {
@@ -71,4 +72,4 @@
 
             return image;
         }
-         ```
+```
