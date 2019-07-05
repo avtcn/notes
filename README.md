@@ -8,7 +8,12 @@ Such as topics as below:
 ![](home.avtcn_notes.png)
 
 
-## Others  
+## 其他  
+
+## 联系方式  
+
+support@alliedvision.com
+
 
 
 ---
