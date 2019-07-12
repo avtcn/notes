@@ -1,4 +1,10 @@
-# Vimba C++ API 三种拍照模式编程实例 - MFC GUI
+Vimba C++ API 三种拍照模式编程实例 - MFC GUI
+---
+
+```
+TODO: 增加fps显示，或者软件触发时一张图片的采集时间。
+```
+
 Allied Vision工业相机一般可以使用三种模式进行拍照:
 1. 自由采集(Free Run)
 2. 软件触发拍照(Software Trigger)
