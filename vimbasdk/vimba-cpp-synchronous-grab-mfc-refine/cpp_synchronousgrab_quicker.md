@@ -1,4 +1,4 @@
-VimbaCPP_Examples\SynchronousGrab\MFC例子程序中 AcquireSingleImage() 函数改造
+VimbaCPP_Examples\SynchronousGrab\MFC例子程序中 AcquireSingleImage() 函数优化-单张取图
 ---
 
 ### 背景
