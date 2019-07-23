@@ -8,13 +8,10 @@
 
 ![GitHub](NetAPI2.png "GitHub,Social Coding")
 
-### 添加一个用户配置文件(C#默认没有App.config文件，VB.Net默认有），使VimbaNETAPI能在当前的.NET Framework环境下运行(VimbaNET.dll是在.NET 2.0环境下编译的)
-
-![GitHub](NetAPI3.png "GitHub,Social Coding")
-
+### 为当前工程添加一个用户配置文件(C#默认没有App.config文件，VB.Net默认有）
 ![GitHub](NetAPI4.png "GitHub,Social Coding")
-
-![GitHub](NetAPI5.png "GitHub,Social Coding")
+### 修改App.config使当前工程支持.NET Framework2.0运行库(VimbaNET.dll是在.NET 2.0环境下编译的)
+![GitHub](Net5.png "GitHub,Social Coding")
 
 ### 引用VimbaNETAPI的命名空间
 
