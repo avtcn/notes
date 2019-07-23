@@ -18,6 +18,10 @@
 ![GitHub](NetAPI6.png "GitHub,Social Coding")
 
 使用Vimba .NET API的流程就介绍到这里了
+### 参考代码下载
+#### （VB.Net）
+https://github.com/avtcn/notes/blob/master/vimbasdk/VimbaNet/AVT_DemoVBNet.zip
+#### （C#）
 
 ### 其它信息
 联系 support@alliedvision.com 获取更多帮助。
