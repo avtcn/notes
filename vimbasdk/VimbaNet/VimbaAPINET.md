@@ -1,14 +1,14 @@
 
 ##  本节主要介绍如何使用Vimba .NET API
 
-### 新建一个C#工程(注意当前的.NET版本）
+### 新建一个C#（或VB.NET）工程
 ![GitHub](NetAPI1.png "GitHub,Social Coding")
 
 ### 引用VimbaSDK安装目录下的VimbaNET.dll（dll区分32位和64位的，按系统选择引用）
 
 ![GitHub](NetAPI2.png "GitHub,Social Coding")
 
-### 添加一个用户配置文件，使VimbaNETAPI能在当前的.NET Framework环境下运行(VimbaNET.dll是在.NET 2.0环境下编译的)
+### 添加一个用户配置文件(C#默认没有App.config文件，VB.Net默认有），使VimbaNETAPI能在当前的.NET Framework环境下运行(VimbaNET.dll是在.NET 2.0环境下编译的)
 
 ![GitHub](NetAPI3.png "GitHub,Social Coding")
 
