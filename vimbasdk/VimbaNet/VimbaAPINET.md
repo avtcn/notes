@@ -19,9 +19,10 @@
 
 使用Vimba .NET API的流程就介绍到这里了
 ### 参考代码下载
-#### （VB.Net）
+#### VB.Net
 https://github.com/avtcn/notes/blob/master/vimbasdk/VimbaNet/AVT_DemoVBNet.zip
-#### （C#）
+#### C#（只要完全安装了Vimba SDK，有很多官方自带的例程可以参考）
+https://github.com/avtcn/notes/blob/master/vimbasdk/VimbaNet/AVT_Demo_CSharp.zip
 
 ### 其它信息
 联系 support@alliedvision.com 获取更多帮助。
