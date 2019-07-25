@@ -21,7 +21,7 @@
 ### 参考代码下载
 #### VB.Net
 https://github.com/avtcn/notes/blob/master/vimbasdk/VimbaNet/AVT_DemoCode_VBNet.zip
-#### C#（官方自带的.NET例程所使用语言的是C#）
+#### C#（官方.NET例程所使用语言的是C#）
 https://github.com/avtcn/notes/blob/master/vimbasdk/VimbaNet/AVT_DemoCode_CSharp.zip
 
 ### 其它信息
