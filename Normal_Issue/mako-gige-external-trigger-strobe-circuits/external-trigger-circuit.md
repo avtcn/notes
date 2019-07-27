@@ -28,3 +28,6 @@ http://china.alliedvision.com/fileadmin/content/documents/products/cameras/Mako_
 
 与Mako G系列类似，详细接口及线序定义请查看Manata系列相机的技术文档：
 http://china.alliedvision.com/fileadmin/content/documents/products/cameras/Manta/techman/Manta_TechMan.pdf
+
+## 硬件触发时，相机软件参数对应设置方法
+![](vimba-gige-hardware-trigger.jpg)
