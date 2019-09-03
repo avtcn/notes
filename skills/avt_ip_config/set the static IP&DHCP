@@ -1,0 +1,90 @@
+如果客户想要将摄像头设置为Fixed和DHCP，那么要么使用VimbaViewer，要么需要编写一个程序来执行此操作。
+
+a）比方说，某一客户想在ansi-c程序中设置静态IP:100.100.100.1和子网掩码：255.255.255.0：
+===================================================================================== 
+// 打开相机的配置模式 
+err = VmbCameraOpen( pCameraID, VmbAccessModeConfig, &cameraHandle ); 
+
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not open camera. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+// 设为静态IP 
+err = VmbFeatureEnumSet( cameraHandle, "GevIPConfigurationMode", "Persistent" ); 
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not set the static IP. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+// 设置静态IP 169.254.1.1 = 16907945 
+// GIO set ip to 100.100.100.1 = 23356516 
+err = VmbFeatureIntSet( cameraHandle, "GevPersistentIPAddress", 23356516 ); 
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not set the static IP. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+// 设置子网掩码 255.255.255.0 = 16777215 
+err = VmbFeatureIntSet( cameraHandle, "GevPersistentSubnetMask", 16777215 ); 
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not set the static IP. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+// 执行 
+err = VmbFeatureCommandRun( cameraHandle, "GevIPConfigurationApply" ); 
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not apply the new IP configurations. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+
+B) 如果要设置为 DHCP: 
+================================ 
+// 打开相机的配置模式 
+err = VmbCameraOpen( pCameraID, VmbAccessModeConfig, &cameraHandle ); 
+
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not open camera. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+// 设置 DHCP 
+err = VmbFeatureEnumSet( cameraHandle, "GevIPConfigurationMode", "DHCP" ); 
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not set the static IP. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
+// 执行 
+err = VmbFeatureCommandRun( cameraHandle, "GevIPConfigurationApply" ); 
+if ( VmbErrorSuccess != err ) 
+{ 
+printf( "Could not apply the new IP configurations. Error code: %d\n", err ); 
+printf( "Press <enter> to quit\n" ); 
+getchar();	
+return err; 
+} 
+
