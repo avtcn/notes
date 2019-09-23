@@ -41,6 +41,7 @@ LUT数据文件`lut-joe-mako-1.6-and-2.0.csv`目前含有Gamma 1.6和Gamma 2.0�
 目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug` 
 ```
 ./LookUpTable.exe /i:0 /lc:6 /f:"lut-joe-mako-1.6-and-2.0.csv"
+
 ///////////////////////////////////////
 /// Vimba API Look Up Table Example ///
 ///////////////////////////////////////
