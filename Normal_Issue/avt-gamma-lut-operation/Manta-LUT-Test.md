@@ -61,10 +61,10 @@ Look up table successfully loaded from CSV.
 另外，为了保证以上导入的LUT数据在相机断电之后仍然保存在相机中以便再次使用： 
 * `LUTSaveAll`：使用此命令永久保存LUT数据到相机Flash中。
 
-## LUTEnable 未选 (Gamma == 1.0)
+## LUTEnable 未选 (使用 原始的 Gamma 1.0 效果)
 ![Gamma 1.0](gamma1.0.png)
 
-## LUTEnable 选中 (Gamma == 1.6)
+## LUTEnable 选中 (使用 LUT Gamma 1.6 效果)
 ![Gamma 1.6](gamma1.6.png)
 
 
