@@ -56,15 +56,15 @@ Look up table successfully loaded from CSV.
 
 # LUTEnable 打开或者关闭LUT功能
 
-* `LUTEnable 选中`：LUTControl中的LUT1数据生效；
+* `LUTEnable 选中 - `：LUTControl中的LUT1数据生效；
 * `LUTEnable 未选`：Gamma 值生效，缺省为1；  
 另外，为了保证以上导入的LUT数据在相机断电之后仍然保存在相机中以便再次使用： 
 * `LUTSaveAll`：使用此命令永久保存LUT数据到相机Flash中。
 
-## LUTEnable == true (Gamma == 1.0)
+## LUTEnable 未选 (Gamma == 1.0)
 ![Gamma 1.0](gamma1.0.png)
 
-## LUTEnable == true (Gamma == 1.6)
+## LUTEnable 选中 (Gamma == 1.6)
 ![Gamma 1.6](gamma1.6.png)
 
 
