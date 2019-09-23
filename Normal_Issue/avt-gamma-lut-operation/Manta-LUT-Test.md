@@ -38,8 +38,9 @@ AVT相机未经过Gamma/LUT处理的原始图像是由上图中的45度直线映
 # LUT数据文件导入
 LUT数据文件`lut-joe-mako-1.6-and-2.0.csv`目前含有Gamma 1.6和Gamma 2.0的数据文件，分别在第4和6列（第一列号为0）。以下使用我们的`LookUpTable.exe`程序导入Gamma 2.0的数据到相机flash中。 
 
+目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug` 
 ```
-joe@AD-PC:/c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug$ ./LookUpTable.exe /i:0 /lc:6 /f:"lut-joe-mako-1.6-and-2.0.csv"
+./LookUpTable.exe /i:0 /lc:6 /f:"lut-joe-mako-1.6-and-2.0.csv"
 ///////////////////////////////////////
 /// Vimba API Look Up Table Example ///
 ///////////////////////////////////////
@@ -62,12 +63,17 @@ Look up table successfully loaded from CSV.
 
 # LookUpTable.exe 使用说明
 
+目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug` 
 ```
-joe@ADLINK-PC:/mnt/c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug$ ./LookUpTable.exe /h///////////////////////////////////////
+./LookUpTable.exe /h
+
+///////////////////////////////////////
 /// Vimba API Look Up Table Example ///
 ///////////////////////////////////////
 
-Usage: LookUpTable.exe [CameraID] [/i:Index] [/h] [/{s|l|sc|lc:Column|u|d|v(:Value)|e(:Enable)|bi|bo|n}] [/f:FileName]
+Usage: LookUpTable.exe [CameraID] [/i:Index] [/h] 
+        [/{s|l|sc|lc:Column|u|d|v(:Value)|e(:Enable)|bi|bo|n}] [/f:FileName]
+
 Parameters:   CameraID       ID of the camera to use
                              (using first camera if not specified)
               /i:Index       Set look up table index
