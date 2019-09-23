@@ -9,7 +9,7 @@ AVT相机未经过Gamma/LUT处理的原始图像是由上图中的45度直线映
 
 # LUT文件数据
 
-数据文件的格式如下图。具体可以参考 LUT数据文件`lut-joe-mako-1.6-and-2.0.csv`。
+数据文件的格式如下图。具体可以参考 LUT数据文件[lut-joe-mako-1.6-and-2.0.csv](lut-joe-mako-1.6-and-2.0.csv)。
 其中第0列为0~4095，相当于Gamma = 1，第4列为 Gamma = 1.6，第6列为 Gamma = 2.0。
 客户可以根据规律来自己生成特定的LUT/Gamma数据。
 `注意:` CSV文件用分号（;）而不是逗号（,）分隔。
@@ -36,9 +36,11 @@ AVT相机未经过Gamma/LUT处理的原始图像是由上图中的45度直线映
 
 
 # LUT数据文件导入
-LUT数据文件`lut-joe-mako-1.6-and-2.0.csv`目前含有Gamma 1.6和Gamma 2.0的数据文件，分别在第4和6列（第一列号为0）。以下使用我们的`LookUpTable.exe`程序导入Gamma 2.0的数据到相机flash中。 
+LUT数据文件[lut-joe-mako-1.6-and-2.0.csv](lut-joe-mako-1.6-and-2.0.csv)目前含有Gamma 1.6和Gamma 2.0的数据文件，分别在第4和6列（第一列号为0）。以下使用我们的`LookUpTable.exe`程序导入Gamma 2.0的数据到相机flash中。 
 
-目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug` 
+* 目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug` 
+* 命令：`./LookUpTable.exe /i:0 /lc:6 /f:"lut-joe-mako-1.6-and-2.0.csv"`
+
 ```
 ./LookUpTable.exe /i:0 /lc:6 /f:"lut-joe-mako-1.6-and-2.0.csv"
 
@@ -64,7 +66,9 @@ Look up table successfully loaded from CSV.
 
 # LookUpTable.exe 使用说明
 
-目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug` 
+* 目录: `c/Users/Public/Documents/Allied Vision/Vimba_3.0/VimbaNET_Examples/LookUpTable/Build/VS2010/Win32/Debug`
+* 命令：`./LookUpTable.exe /h`
+
 ```
 ./LookUpTable.exe /h
 
