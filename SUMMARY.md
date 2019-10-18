@@ -46,7 +46,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [修改并保存相机参数](Normal_Issue/SaveUserset/Save_Userset.md)
 	* [恢复相机出厂设置/默认参数](Normal_Issue/LoadDefault/load_Default.md)
 	* [如何升级/导入相机固件（Firmware_Upgrade）](Normal_Issue/FirmwareUpgrade/Firmware_Upgrade.md)
-	* [相机坏点判定方法及坏点校正工具使用](Normal_Issue/bad_pixels_tools.md)
+	* [相机坏点判定方法及坏点校正工具使用](Normal_Issue/DefectPixel/bad_pixels_tools.md)
 	* [千兆网相机稳定性判断方法-Vimba Viewer查看软件](skills/how_to_check_gige_network_statbility.md)
 	* [相机2D尺寸图、3D尺寸图](Normal_Issue/AVT-Cameras-2D-3D-Datasheets/AVT-Cameras-2d-3d-datasheets.md)
 	* [在Matlab上使用AVT工业相机的注意事项](Normal_Issue/AVT-Cameras-2D-3D-Datasheets/AVT-Cameras-2d-3d-datasheets.md)
