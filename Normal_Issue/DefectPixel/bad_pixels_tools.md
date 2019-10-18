@@ -11,16 +11,25 @@
 机器视觉应用和许多科学应用，用户只需要“真实数据”，用户希望选择自己的算法，并要知道哪些像素受影响，故机器视觉应用
 需要用户指定是否修补或有用户自行定义算法修补。Allied Vision 在某些特定型号的相机提供坏点修补算法或工具。
 
-1.SmartView， 
+1.SmartView:
+
 Stingray, Pike 其他火线相机不带坏点修复功能
 
+
 2.Defect MasK Loader: DefectMaskLoader.zip
+
 Mako family ： Mako G030, Mako G131, Mako G192, Mako G223, Mako G419, Mako G503
+
 Manta family: Manta G223, Manta G419
+
 GT family: GT2000 GT2050
 
-3.Defect Pixel List Manager
+
+3.Defect Pixel List Manager:
+
 GT family: GT4090, GT4096, GT5120
 
-4.Load Defect Tables
+
+4.Load Defect Tables:
+
 GT family: GT1660 ,GT 1910, GT1920 GT2300, GT2750, GT3300,GT3400, GT4905, GT4907, GT6600
