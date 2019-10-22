@@ -13,7 +13,7 @@
 ### 勾选需要升级的相机后，点击“下一步”
 ![GitHub](fw2.png "GitHub,Social Coding")
 
-### 网络正常的前提下，如果找不到相机，可以选择“Use recovery mode”,软件保持不关闭的前提下断电重启相机（如果一次不行，多重启几次）
+### 网络正常的前提下，如果找不到相机，可以选择“Use recovery mode”,软件保持不关闭的前提下断电重启相机（如果一次不行，多重启几次）建议在单网卡系统上做以上修复
 ![GitHub](fw4.png "GitHub,Social Coding")
 
 ## 4. 点击“Upload”按钮，等待升级（过程中要保证网络和供电正常）
