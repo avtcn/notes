@@ -1,1 +1,1 @@
-
+使用该工具前，应该先用Vimbaviewer等工具，获取原图， 单色相机使用Mono8像素，彩色相机用Bayer8,BayerRG8等未做彩色解码的像素模式,并在PC端禁止彩色解码，用Vimbaviewer保存图像为：bmp，tif等非压缩格式
