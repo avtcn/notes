@@ -31,7 +31,12 @@ Allied Vision工业相机一般可以使用三种模式进行拍照:
 
 
 ## 例子代码
-请访问：https://github.com/avtcn/notes/blob/master/vimbasdk/vimba-cpp-3-programming-modes/AsynchronousGrab-OPTMV-SW-HW-Trigger.zip 
+请访问：https://github.com/avtcn/notes/blob/master/vimbasdk/vimba-cpp-3-programming-modes/AsynchronousGrab-OPTMV-SW-HW-Trigger.zip   
+
+或者直接使用下面链接下载：  
+[AsynchronousGrab-OPTMV-SW-HW-Trigger.zip](AsynchronousGrab-OPTMV-SW-HW-Trigger.zip?raw=true)
+
+
 
 ## 需要软件
 * Visual Studio Community 2017 (http://www.visualstudio.com/) 或者类似版本
