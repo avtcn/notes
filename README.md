@@ -18,9 +18,9 @@ Such as topics as below:
 ### 修改hosts文件
 hosts文件的路径是`C:\Windows\System32\drivers\etc\hosts`  
 在hosts文件最后添加一行IP和域名，比如`192.30.253.112 github.com`，保存即可(需要管理员权限才能保)。  
+
 下面是目前可用的hosts代码：  
 ```
-# GitHub Start
 # GitHub Start
 192.30.253.112 github.com
 192.30.253.119 gist.github.com
