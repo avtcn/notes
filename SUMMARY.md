@@ -2,8 +2,8 @@
 
 This is a technical book for AVT cameras by AVTCN AE.
 
-* [AVT相机选型](cameras/README.md)
-        * [AVT相机选型指南](cameras/AVT相机选型指南.pdf)
+* [AVT相机选型](cameras/README.md)        	
+	* [AVT相机选型指南](cameras/AVT相机选型指南.pdf)
 	* [相机I/O线定义](cameras/AVT_cable_12pin.pdf)
 	* [CCD到CMOS的转换](cameras/ccd2cmos.md)
 	* [Firewire/1394 vs GigE千兆网](cameras/firewire2gige.md)
