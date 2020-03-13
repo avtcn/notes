@@ -14,19 +14,19 @@ AVT Vimba SDK支持多种平台
 
 ## AVT Vimba 安装包（Windows版本下载）
 * 官网下载地址：http://china.alliedvision.com/cn/%E4%BA%A7%E5%93%81/%E8%BD%AF%E4%BB%B6.html  
-免费下载Allied Vision Vimba SDK:  
-所有 Vimba 相关的下载都是免费的，包括编程样例和用户手册。您可以立即免费下载并使用 Vimba。  
+  免费下载Allied Vision Vimba SDK:  
+  所有 Vimba 相关的下载都是免费的，包括编程样例和用户手册。您可以立即免费下载并使用 Vimba。  
 
-下载 Windows 版:  
-Vimba v3.1 Windows, Release Notes  
-下载 Linux x86/x64 版:  
-Vimba v3.1 Linux, Release Notes  
-下载 ARMv7 32-bit 版:  
-Vimba v3.1_ARM, Release Notes  
-下载 ARMv8 64-bit 版:  
-Vimba v3.1 ARM64, Release Notes  
+  下载 Windows 版:  
+  Vimba v3.1 Windows, Release Notes  
+  下载 Linux x86/x64 版:  
+  Vimba v3.1 Linux, Release Notes  
+  下载 ARMv7 32-bit 版:  
+  Vimba v3.1_ARM, Release Notes  
+  下载 ARMv8 64-bit 版:  
+  Vimba v3.1 ARM64, Release Notes  
   
-安装文件大小在188MB左右。  
+  安装文件大小在188MB左右。  
 
 
 ## 安装过程
@@ -48,5 +48,6 @@ Vimba v3.1 ARM64, Release Notes
 
 
 ## Linux 平台的安装
+请在上面[下载页面](http://china.alliedvision.com/cn/%E4%BA%A7%E5%93%81/%E8%BD%AF%E4%BB%B6.html)选择相当类型的Linux平台Vimba SDK安装包进行安装。
 
 
