@@ -11,7 +11,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Vimba SDK安装](vimbasdk/installation.md)
 	* [Windows平台优化](vimbasdk/optimization.md)
 	* [Vimba 例程介绍](vimbasdk/samples.md)
-	* [VimbaC 采图 + MFC界面显示图片实例](vimbasdk/vimbasdk/VimbaC/VimbaC.md)
+	* [VimbaC 采图 + MFC界面显示图片实例](vimbasdk/VimbaC/VimbaC.md)
 	* [Vimba C++ API 移植方法](vimbasdk/vimbacppport/vimbacppport.md)
 	* [Vimba C++例程移植实例](vimbasdk/VmbCPP/VmbCPP_Examples.md)
 	* [MFC(VS2010)环境下调用VmbCPP API及复用例程代码实例](vimbasdk/VmbCPP/VmbAPI_CPP.md)
