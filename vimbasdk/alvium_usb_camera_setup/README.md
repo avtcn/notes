@@ -165,7 +165,11 @@ Line0有效激活一次，相机将采集一次
 
 
 ### Q6. Linux ARM/Intel 平台下 Alvium USB3 相机的性能优化方法有哪些？
->A6. 详细方法请参考 [Optimizing-Performance-Jetson_appnote.pdf](Optimizing-Performance-Jetson_appnote.pdf)
+>A6. 详细方法请参考 [Optimizing-Performance-Jetson_appnote.pdf](Optimizing-Performance-Jetson_appnote.pdf)  
+几个重要修改点如下：  
+* `sudo sh -c 'echo 1000 > /sys/module/usbcore/parameters/usbfs_memory_mb'`
+* `DeviceLinkThroughputLimit -> 400000000`, 最大到可达450000000
+* 在 `Vimba_4_1/VimbaUSBTL/CTI/x86_64bit/VimbaUSBTL.xml` 文件中，修改`MaxTransferSize`(取消注释即可)
 
 
 ### Q7. 本手册的PDF版本在哪里下载？
