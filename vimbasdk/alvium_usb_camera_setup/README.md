@@ -152,7 +152,7 @@ Line0有效激活一次，相机将采集一次
 ### Q4. 我设置好了参数，相机掉电后无法保存怎么办？
 >A4. 相机支持两种方式保存参数，一种是通过相机片上的闪存保存，另外一种是通过读入xml文件来进行参数保存；由于目前的固件还未支持相机片上保存，所以我们可以采用读写xml文件的方式来保存参数，预计11月份的新固件即可支持相机片上保存；
 保存和读取xml文件的方法很简单，在工具栏上单击对应的Load和Save按钮即可。 
-另外可以参考文档：[修改并保存相机参数](../Normal_Issue/SaveUserset/Save_Userset.md)  
+另外可以参考文档：[修改并保存相机参数](../../Normal_Issue/SaveUserset/Save_Userset.md)  
 ![](vimba_viewer_save_restore_configures.jpg)   
 (图18)
 
