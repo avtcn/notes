@@ -64,9 +64,9 @@ This is a technical book for AVT cameras by AVTCN AE.
 	
 	
 * [简明技术手册](Normal_Issue/ReadMe.md)
-	* [Alvium USB3 相机简明手册](vimbasdk\alvium_usb_camera_setup\ALVIUM手册-Alan.md)
-	* [GigE千兆网相机简明手册](vimbasdk\alvium_usb_camera_setup\ALVIUM手册-Alan.md)
-	* [Alvium MIPI 相机简明手册](vimbasdk\alvium_usb_camera_setup\ALVIUM手册-Alan.md)
+	* [Alvium USB3 相机简明手册](vimbasdk\alvium_usb_camera_setup\README.md)
+	* [GigE千兆网相机简明手册](vimbasdk\gige_camera_setup\README.md)
+	* [Alvium MIPI 相机简明手册](vimbasdk\alvium_mipi_camera_setup\README.md)
 	
 
 ## 其他  
