@@ -2,7 +2,7 @@
 
 This is public technical documents portal by AVTCN AE team.   
 You can view content directory through link below:  
-https://github.com/avtcn/notes/blob/master/SUMMARY.md
+https://github.com/avtcn/notes/blob/master/README.md
 
 
 
