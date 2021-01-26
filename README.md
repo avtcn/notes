@@ -63,7 +63,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [在Matlab上使用AVT工业相机的注意事项](Normal_Issue/AVT-Cameras-2D-3D-Datasheets/AVT-Cameras-2d-3d-datasheets.md)
 	
 	
-* [简明技术手册](Normal_Issue/ReadMe.md)
+* [简明技术手册]()
 	* [Alvium USB3 相机简明手册](vimbasdk\alvium_usb_camera_setup\README.md)
 	* [GigE千兆网相机简明手册](vimbasdk\gige_camera_setup\README.md)
 	* [Alvium MIPI 相机简明手册](vimbasdk\alvium_mipi_camera_setup\README.md)
