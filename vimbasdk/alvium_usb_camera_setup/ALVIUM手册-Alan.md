@@ -161,6 +161,16 @@ Line0有效激活一次，相机将采集一次
 (图19)
 
 
+### Q6. Linux ARM/Intel 平台下 Alvium USB3 相机的性能优化方法有哪些？
+>A6. 详细方法请参考 [Optimizing-Performance-Jetson_appnote.pdf](Optimizing-Performance-Jetson_appnote.pdf)
+
+
+### Q7. 本手册的PDF版本在哪里下载？
+>A7. 请点击链接 [ALVIUM_Manual_AVTCN.pdf](ALVIUM_Manual_AVTCN.pdf)
+
+
+
+---
 
 ## Version
-2020/12/07
+2021/01/26
