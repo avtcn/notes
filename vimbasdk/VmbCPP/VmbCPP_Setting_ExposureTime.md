@@ -54,9 +54,9 @@ VmbErrorType ApiController::AcquireSingleImage( const std::string &rStrCameraID,
             res = m_pCamera->GetFeatureByName("ExposureTimeAbs", pExposureFeature);
             if ( VmbErrorSuccess != res ) { // try USB3 feature name
                 res = m_pCamera->GetFeatureByName("ExposureTime", pExposureFeature);
-                if (VmbErrorSuccess == res) {
-                    res = pExposureFeature->SetValue(15000.0f); // in us, 15000.0us = 15ms
-                }
+            }
+            if (VmbErrorSuccess == res) {
+                res = pExposureFeature->SetValue(15000.0f); // in us, 15000.0us = 15ms
             }
 
             if ( VmbErrorSuccess == res )
