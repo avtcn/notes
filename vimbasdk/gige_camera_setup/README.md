@@ -2,7 +2,7 @@
 
 欢迎使用Allied Vision Technologies的产品，为方便您快速的使用我们的GigE千兆网系列工业相机，提供以下快速使用说明，本说明包含三个部分：
 
-* 第一部分 ：安装Vimba
+* 第一部分 ：安装相机软件开发包Vimba SDK
 * 第二部分 ：Vimba Viewer 使用方法
 * 第三部分 ：千兆网相机性能优化方法
 * 第四部分 ：常见问题 Q&A
@@ -146,31 +146,62 @@ Line0有效激活一次，相机将采集一次
   
 ##  第三部分：千兆网相机性能优化方法
 
-### 3.1 TODO: Vimba Driver Installer 使用 - 安装千兆网卡的AVT Vimba驱动
+### 3.1 千兆网相机硬件连接
 
+#### 3.1.1 千兆网卡 - GigE PCIe 数据采集卡
+为确保工业相机传输的可靠性和带宽，GigE接口的工业相机请连接到千兆网卡或者千兆网交换机上，我司推荐网卡及交换机型号如下:  
+![](avt-gige-pcie-adapter-recommend.jpg)  
 
-### 3.2 网卡及相机的IP设置
-
-#### 3.2.1 DHCP 动态IP模式
-
-
-
-#### 3.2.2 Persistent 固定IP模式
-
-
-### 3.2 网卡驱动性能优化
-
-
-
-
-### 3.3 网络性能测试
-
-
-
+例如：下图为一款带4个千兆网接口的网卡，可以接入4台AVT千兆网相机：
+![](avt-gige-4-ports-pcie-adatper.jpg)
   
 
+#### 3.1.2 千兆交换机 - GigE Switch 交换机
+也可以使用千兆网交换机接入多台相机，但是由于共享带宽的原因，每台相机的实际使用带宽会变小：
+![](avt-gige-switch-recommend.jpg)  
+  
+下图为8口千兆交换机，其中4个为PoE接口，可以给支持PoE功能的相机供电：
+![](NETGEAR_GS108PE3_01.png)
 
 
+***当多个相机通过千兆交换机，连接到一个网口时，多相机共享一个千兆网带宽，需要对每个相机的传输带宽做限制，确保不会发生数据冲突现象***
+
+#### 3.1.3 相机供电电源配件
+电源连接，Mako系列的电源接口为8PIN接头，Manta和GT系列的电源接口为12PIN 接头，请根据相机型号选择对应的电源；对于支持PoE的型号，可以不需要电源，通过网线给相机供电，我司推荐PoE网卡及PoE交换机型号如下（图7）:
+![](adlink-poe-adapter.jpg)
+![](poe-switch.jpg)
+
+***PoE模式下，需要连接的网卡也具有相应的PoE功能，或者使用PoE Injector的方式***
+
+
+### 3.2 TODO: Vimba Driver Installer 使用 - 安装千兆网卡的AVT Vimba驱动
+
+
+#### 3.2.1 网卡驱动参数优化
+
+
+### 3.3 网卡及相机的IP设置
+可以使用Vimba Viewer的Open Config菜单进行相机IP修改：
+![](vimba-viewer-open-config.png)
+
+#### 3.3.1 DHCP 动态IP模式
+![](vimba-viewer-ip-dhcp.png)
+
+
+#### 3.3.2 Persistent 固定IP模式
+![](vimba-viewer-persistent-ip.png)
+
+
+### 3.4 网卡驱动性能优化
+下面每张图片选中部分的参数是需要优化的条目：
+![](Win7NICSetting-IntelOptimization.png)
+
+
+### 3.5 网络性能测试
+可以使用Vimba Viewer中Statistics部分查看是否有大量的丢帧/重传等错误:
+1. GVSP Packet Size: 最好是8999，也就是之前网卡驱动中的Jumbo Packet Size 巨帧参数。
+2. Statistics: Stat Frames Dropped/Rescued/Shoved/Underrun， Stat Packets Errors/Missed/Requested/Resent 等变化越小越好。这些值最开始都是0，在经过几分钟，几个小时后，这些值如果变化很小，例如小于100，那么代表网络传输效率很好，反之，如果每秒增加几或者几十的数值，那么代表网络效率很差，需要找到原因并优化。  
+![](vimba-viewer-statistics.png)
 
 
 
@@ -182,17 +213,11 @@ Line0有效激活一次，相机将采集一次
 
 ## 第三部分：常见问题Q&A
 
-### Q1. 相机无法采集图像，或者采集帧率很低？
->A1. 首先检查相机的连接是否正常，相机尾部绿色指示灯是否点亮；其次，确认连接的USB接口是否是USB3.0接口，可以通过VimbaViewer的Device Link Speed是否为450000000来确认，如果此时连接的接口为USB2.0或者发生硬件故障，这里的值为50000000；
+### Q1. 相机无法连接
+>A1. 参考以上硬件部分
 
-
-### Q2. 相机连续采集时无法达到最高的帧率？
->A2. 相机默认的带宽设置是200000000(200MB)，对于分辨率较高的相机，需要提高带宽才能达到最大帧帧率，可以通过设置Device Link Throughput Limit （图16）来修改带宽，最大值可以改为450000000(450MB)；  
-为了达到最大采集帧速，建议根据电脑的性能设置此参数为 400000000 或者 420000000。  
-![](vimba_viewer_devicecontrol_usb_speed.jpg)   
-(图16)
-
-
+### Q2. 相机无法采集图像，或者采集帧率很低？
+>A2. 确认是否正在使用千兆网模式，避免误用百兆网。另外彩色相机的RGB8会让帧速减小为1/3，可以使用BayerRGB8代替，以达到标称最高帧带。
 
 ### Q3. 如何保存拍摄的图像？
 >A3. 对于单张图像，可以在采集停止时，鼠标右键点击显示区，调出Save Image…对话框进行保存；
@@ -201,36 +226,40 @@ Line0有效激活一次，相机将采集一次
 (图17)
 
 
-### Q4. 我设置好了参数，相机掉电后无法保存怎么办？
->A4. 相机支持两种方式保存参数，一种是通过相机片上的闪存保存，另外一种是通过读入xml文件来进行参数保存；由于目前的固件还未支持相机片上保存，所以我们可以采用读写xml文件的方式来保存参数，预计11月份的新固件即可支持相机片上保存；
-保存和读取xml文件的方法很简单，在工具栏上单击对应的Load和Save按钮即可。 
-另外可以参考文档：[修改并保存相机参数](../../Normal_Issue/SaveUserset/Save_Userset.md)  
-![](vimba_viewer_save_restore_configures.jpg)   
-(图18)
-
-
-### Q5. 我想通过SDK对相机进行开发，如何获得例程和文档？
->A5. VIMBA安装时，会自动安装开发环境及开发文档到主机，请通过Windows的开始菜单，找到Allied Vision Vimba文件夹，在此文件夹下，针对不同的语言，有对应的开发API手册：
+### Q4. 我想通过SDK对相机进行开发，如何获得例程和文档？
+>A4. VIMBA安装时，会自动安装开发环境及开发文档到主机，请通过Windows的开始菜单，找到Allied Vision Vimba文件夹，在此文件夹下，针对不同的语言，有对应的开发API手册：
 《Vimba C API Manuual》 《Vimba C++ API Mannual》 《Vimba C# API Mannual》《Vimba Python API Mannual》
 例子请参考Vimba Examples Folder, 同样按照不同的语言，进行了分类（图19）；
 ![](vimba_sdk_examples_folders.jpg)   
 (图19)
 
 
-### Q6. Linux ARM/Intel 平台下 Alvium USB3 相机的性能优化方法有哪些？
->A6. 详细方法请参考 [Optimizing-Performance-Jetson_appnote.pdf](Optimizing-Performance-Jetson_appnote.pdf)  
-几个重要修改点如下：  
-* `sudo sh -c 'echo 1000 > /sys/module/usbcore/parameters/usbfs_memory_mb'`
-* `DeviceLinkThroughputLimit -> 400000000`, 最大到可达450000000
-* 在 `Vimba_4_1/VimbaUSBTL/CTI/x86_64bit/VimbaUSBTL.xml` 文件中，修改`MaxTransferSize`(取消注释即可)
-
+### Q6. Linux 平台下 AVT 千兆网相机的性能优化方法有哪些？
+>A6. 详细方法请参考
 
 ### Q7. 本手册的PDF版本在哪里下载？
->A7. 请点击链接 [ALVIUM_Manual_AVTCN.pdf](ALVIUM_Manual_AVTCN.pdf)
+>A7. 请点击链接 [AVT_GigE_Manual_AVTCN.pdf](AVT_GigE_Manual_AVTCN.pdf)
 
 
 
 ---
 
 ## Version
-2021/01/26
+2021/03/31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
