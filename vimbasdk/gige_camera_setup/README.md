@@ -9,9 +9,8 @@
 
   
 
-<br>
-<br>  
-  
+
+
 ## 第一部分：安装Allied Vision SDK软件包 - Vimba SDK
 
 ### 1.1 软件下载地址（免费下载安装，无需注册）
@@ -29,22 +28,20 @@
 
 
 ### 1.4 在Windows环境下安装Vimba，双击下载的可执行文件，出现安装界面（图4）
->选择不同的安装模式，对于初次使用的用户，建议选择Application Development安装
-Linux For X86/ARM的安装方式，采用自动化脚本，操作方法请参考软件附带的安装说明。 
+>选择不同的安装模式，对于初次使用的用户，建议选择 `Application Development` 安装
+Linux For X86/ARM的安装方式，采用自动化脚本，操作方法请参考软件附带的安装说明。   
+***一定要选择 `Application Development` 模式，否则API 文档及 代码例程 不会安装。***
+***另外，请确保当前安装用户有管理员权限。***
 >![](vimba_install_options.png)   
 (图4)
 
 
 ### 1.5 安装完成后，请确保Install Vimba Drivers复选框打钩的前提下（图5），退出安装程序，此时会进行驱动程序的安装，驱动安装完成后即完成全部安装过程。
 >![](vimba_exit_to_driver.png)  
-(图5)
-
-  
-
+(图5)  
+***驱动安装过程中会提示信任驱动安装，请选择信任。 ***
 
 
-<br>
-<br>
 ---
 
 
@@ -140,10 +137,10 @@ Dis 帧率表示显示帧率，最大30fps左右
 单击工具栏上的开始采集  
 Line0有效激活一次，相机将采集一次  
 
-<br>
-<br>
+
+
 ---
-  
+
 ##  第三部分：千兆网相机性能优化方法
 
 ### 3.1 千兆网相机硬件连接
@@ -154,12 +151,12 @@ Line0有效激活一次，相机将采集一次
 
 例如：下图为一款带4个千兆网接口的网卡，可以接入4台AVT千兆网相机：
 ![](avt-gige-4-ports-pcie-adatper.jpg)
-  
+
 
 #### 3.1.2 千兆交换机 - GigE Switch 交换机
 也可以使用千兆网交换机接入多台相机，但是由于共享带宽的原因，每台相机的实际使用带宽会变小：
 ![](avt-gige-switch-recommend.jpg)  
-  
+
 下图为8口千兆交换机，其中4个为PoE接口，可以给支持PoE功能的相机供电：
 ![](NETGEAR_GS108PE3_01.png)
 
@@ -174,10 +171,15 @@ Line0有效激活一次，相机将采集一次
 ***PoE模式下，需要连接的网卡也具有相应的PoE功能，或者使用PoE Injector的方式***
 
 
-### 3.2 TODO: Vimba Driver Installer 使用 - 安装千兆网卡的AVT Vimba驱动
+### 3.2 Vimba Driver Installer 使用 - 安装千兆网卡的AVT Vimba驱动
+可以使用Vimba Driver Installer 程序对相机连接的网卡驱动进行优化，以达到最高的数据传输效率，同时减少CPU占用率：
+![](vimba-driver-installer.png)
 
 
 #### 3.2.1 网卡驱动参数优化
+![](network01.png)
+![](network02.png)
+![](network03.png)
 
 
 ### 3.3 网卡及相机的IP设置
@@ -197,27 +199,33 @@ Line0有效激活一次，相机将采集一次
 ![](Win7NICSetting-IntelOptimization.png)
 
 
+
+
+
 ### 3.5 网络性能测试
 可以使用Vimba Viewer中Statistics部分查看是否有大量的丢帧/重传等错误:
 1. GVSP Packet Size: 最好是8999，也就是之前网卡驱动中的Jumbo Packet Size 巨帧参数。
 2. Statistics: Stat Frames Dropped/Rescued/Shoved/Underrun， Stat Packets Errors/Missed/Requested/Resent 等变化越小越好。这些值最开始都是0，在经过几分钟，几个小时后，这些值如果变化很小，例如小于100，那么代表网络传输效率很好，反之，如果每秒增加几或者几十的数值，那么代表网络效率很差，需要找到原因并优化。  
-![](vimba-viewer-statistics.png)
+![](vimba-viewer-statistics2.png)
 
 
 
 
 
-<br>
-<br>
 ---
 
 ## 第三部分：常见问题Q&A
 
-### Q1. 相机无法连接
->A1. 参考以上硬件部分
+### Q1. 如何保存当前参数和配置到相机，重新掉电后自动加载？
+>A1. 相机本身可以保存4组用户设置：Default,UserSet1,UserSet2,UserSet3,其中Default为出厂默认配置，如果用户需要保存自己参数，请先指定Default以外的设置，比如UserSet1，点击UserSetSave[COMMAND]完成参数的保存，在UserSetDaultSelector中选中UserSet1,作为相机上电后自动运行的设置组即可。
+![](gige-user-sets-default.jpg)
+![](gige-user-sets-1.jpg)
+
 
 ### Q2. 相机无法采集图像，或者采集帧率很低？
 >A2. 确认是否正在使用千兆网模式，避免误用百兆网。另外彩色相机的RGB8会让帧速减小为1/3，可以使用BayerRGB8代替，以达到标称最高帧带。
+相机默认的带宽设置是115000000，对于千兆网接口来说，此带宽最大可以设置为125000000，通过修改此参数，可以让相机达到最大帧率采集。  
+![](gige-maximum-network-speed.jpg)
 
 ### Q3. 如何保存拍摄的图像？
 >A3. 对于单张图像，可以在采集停止时，鼠标右键点击显示区，调出Save Image…对话框进行保存；
@@ -237,7 +245,7 @@ Line0有效激活一次，相机将采集一次
 ### Q6. Linux 平台下 AVT 千兆网相机的性能优化方法有哪些？
 >A6. 详细方法请参考
 
-### Q7. 本手册的PDF版本在哪里下载？
+### Q7. 本手册的PDF版本在哪里下载?
 >A7. 请点击链接 [AVT_GigE_Manual_AVTCN.pdf](AVT_GigE_Manual_AVTCN.pdf)
 
 
