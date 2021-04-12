@@ -32,7 +32,8 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [使用Vimba编程方法进行连续拍照高速存储](vimbasdk/vimba_api_save_continous_photos/high_speed_save_photos.md)	
 	* [Vimba C++ API 图像采集在ActiveX OCX控件中的应用](vimbasdk/vimbacpp-mfc-activex-ocx-implementation/VimbaCPP-ActiveX-OCX-Implementation.md)
 	* [Vimba .NET 图像采集状态统计例程](https://github.com/avtcn/vmbnet_freerun_missing_frames_statistics/blob/master/README.md)
-	* [Vimba.NET 用异步软触发的方式实现同步采图.减少耗时](vimbasdk//VimbaNet/AsySingleGrap.md)	
+	* [Vimba .NET 用异步软触发的方式实现同步采图.减少耗时](vimbasdk//VimbaNet/AsySingleGrap.md)	
+	* [Vimba .NET 双相机自由采集C#例程](https://github.com/avtcn/vmbnet_async_two_cameras_viewer/blob/main/README.md)	
 	* [Vimba C++ 设置相机参数示例：曝光时间设定](vimbasdk/VmbCPP/VmbCPP_Setting_ExposureTime.md)	
 
 * [AVT相机使用技巧](skills/README.md)	
