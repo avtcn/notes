@@ -15,26 +15,29 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [相机I/O线定义](cameras/AVT_cable_12pin.pdf)
 	* [CCD到CMOS的转换](cameras/ccd2cmos.md)
 	* [Firewire/1394 vs GigE千兆网](cameras/firewire2gige.md)
+	  
+	  
 * [Vimba SDK](vimbasdk/README.md)
 	* [Vimba SDK安装](vimbasdk/installation.md)
 	* [Windows平台优化](vimbasdk/optimization.md)
 	* [Vimba 例程介绍](vimbasdk/samples.md)
-	* [VimbaC 采图 + MFC界面显示图片实例](vimbasdk/VimbaC/VimbaC.md)
+	* [Vimba C 采图+MFC界面显示图片实例](vimbasdk/VimbaC/VimbaC.md)
 	* [Vimba C++ API 移植方法](vimbasdk/vimbacppport/vimbacppport.md)
-	* [Vimba C++例程移植实例](vimbasdk/VmbCPP/VmbCPP_Examples.md)
-	* [MFC(VS2010)环境下调用VmbCPP API及复用例程代码实例](vimbasdk/VmbCPP/VmbAPI_CPP.md)
-	* [Vimba C++ API标准接口：Open/Start/Capture/Stop/Close](vimbasdk/vimbacppport/vimbacppport.md)	
-	* [Vimba.NET API 移植 + C#/VB.Net代码实例](vimbasdk//VimbaNet/VimbaAPINET.md)	
+	* [Vimba C++ 例程移植实例](vimbasdk/VmbCPP/VmbCPP_Examples.md)
+	* [Vimba C++ MFC(VS2010)环境下调用VmbCPP API及复用例程代码实例](vimbasdk/VmbCPP/VmbAPI_CPP.md)
+	* [Vimba C++ API标准接口：Open/Start/Capture/Stop/Close](vimbasdk/vimbacppport/vimbacppport.md)		
 	* [Vimba C++ API 三种拍照模式编程实例-GUI](vimbasdk/vimba-cpp-3-programming-modes/vimba_cpp_3_capture_modes.md)
 	* [Vimba C++ API 三种拍照模式编程实例-API Console](vimbasdk/vimba-cpp-3-programming-modes-api-console/vimba-cpp-3-programming-modes-api-console.md) 
 	* [Vimba C++ API - SynchronousGrab同步方法单张取图-AcquireSingleImage()函数优化](vimbasdk/vimba-cpp-synchronous-grab-mfc-refine/cpp_synchronousgrab_quicker.md)
 	* [Vimba API 如何读写相机参数](vimbasdk/vimba_api_read_write_features/vimba_features_rw.md)	
-	* [使用Vimba编程方法进行连续拍照高速存储](vimbasdk/vimba_api_save_continous_photos/high_speed_save_photos.md)	
+	* [Vimba C++ 设置相机参数示例：曝光时间设定](vimbasdk/VmbCPP/VmbCPP_Setting_ExposureTime.md)	
 	* [Vimba C++ API 图像采集在ActiveX OCX控件中的应用](vimbasdk/vimbacpp-mfc-activex-ocx-implementation/VimbaCPP-ActiveX-OCX-Implementation.md)
 	* [Vimba .NET 图像采集状态统计例程](https://github.com/avtcn/vmbnet_freerun_missing_frames_statistics/blob/master/README.md)
 	* [Vimba .NET 用异步软触发的方式实现同步采图.减少耗时](vimbasdk//VimbaNet/AsySingleGrap.md)	
 	* [Vimba .NET 双相机自由采集C#例程](https://github.com/avtcn/vmbnet_async_two_cameras_viewer/blob/main/README.md)	
-	* [Vimba C++ 设置相机参数示例：曝光时间设定](vimbasdk/VmbCPP/VmbCPP_Setting_ExposureTime.md)	
+	* [Vimba .NET 使用Vimba编程方法进行连续拍照高速存储示例](vimbasdk/vimba_api_save_continous_photos/high_speed_save_photos.md)	
+	* [Vimba .NET API 移植 + C#/VB.Net代码实例](vimbasdk//VimbaNet/VimbaAPINET.md)	
+	
 
 * [AVT相机使用技巧](skills/README.md)	
 	* [AVT采图软件入门指南](skills/AVT采图软件入门指南.pdf)
@@ -48,7 +51,8 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [AVT多相机IP配置工具 - AVT_IP_Config](skills/avt_ip_config/avt_ip_config.md)
 	* [Manta相机的EdgeFilter参数](skills/avt_ip_config/avt_ip_config.md)
 	* [LUT参数导入及模拟Gamma参数效果](Normal_Issue/avt-gamma-lut-operation/Manta-LUT-Test.md)
-	
+	  
+	  
 * [常见问题列表](Normal_Issue/ReadMe.md)
 	* [相机误触发](Normal_Issue/TriggerIssue/Trigger_error.md)
 	* [通过交换机连接多个相机](Normal_Issue/ConnectThroughSwitch/Connect_through_switch.md)
@@ -77,9 +81,9 @@ This is a technical book for AVT cameras by AVTCN AE.
 
 
 ## 联系方式  
-
+技术支持邮件：  
 support@alliedvision.com 
-2021-1-26 11:24:42
+2021-4-12 12:02:32
 
 
 
