@@ -42,6 +42,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 
 * [AVT相机使用技巧](skills/README.md)	
 	* [AVT采图软件入门指南](skills/AVT采图软件入门指南.pdf)
+	* [Vimba SDK 安装及使用指南](skills/videos/clips.md)
 	* [千兆网相机使用及优化](skills/gige.md)
 	* [Camera Link](skills/section2.2.md)
 	* [USB 3.0](skills/section2.3.md)
