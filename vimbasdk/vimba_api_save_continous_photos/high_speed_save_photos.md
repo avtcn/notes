@@ -8,14 +8,19 @@
 #### 使用说明如下图
 ![GitHub](SaveImages.png "GitHub,Social Coding")
 
-#### 工具下载链接
-https://github.com/avtcn/notes/blob/master/vimbasdk/vimba_api_save_continous_photos/SaveImages.zip
 
 #### 源代码下载链接
-https://github.com/avtcn/notes/blob/master/vimbasdk/vimba_api_save_continous_photos/AVT_DemoCode_SaveImage.zip
+[AVT_DemoCode_SaveImage.zip](AVT_DemoCode_SaveImage.zip)  
+  
+
+#### 可执行程序下载链接
+[SaveImages.zip](SaveImages.zip)  
+  
 
 ### 其它说明
 磁盘I/O涉及的的东西比较多，以上代码仅供参考，。如果想实现连续、稳定、高速的图片存储，我们建议采用市场上一些付费的商用软件(比如Streampix),或者利用Vimba SDK 提供的采图API自己进行二次开发。另外，如果本身磁盘读写速度比较慢（如机械硬盘），甚至小于相机的带宽，那就需要考虑更换硬件了。
+
+
 
 ### 修改历史
 #### 1.By Lemon 2019.05.24 Manta G-125B 测试通过
