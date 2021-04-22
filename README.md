@@ -48,7 +48,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [USB 3.0](skills/section2.3.md)
 	* [CoaXPress/CXP接口](skills/section2.4.cxp.md)
 	* [Halcon与AVT相机](skills/section2.3.md)
-	* [Labview与AVT相机](skills/section2.3.md)
+	* [Labview与AVT相机](skills/labview_for_avt.md)
 	* [外部触发使用技巧](Normal_Issue/mako-gige-external-trigger-strobe-circuits/external-trigger-circuit.md)
 	* [AVT多相机IP配置工具 - AVT_IP_Config](skills/avt_ip_config/avt_ip_config.md)
 	* [Manta相机的EdgeFilter参数](skills/avt_ip_config/avt_ip_config.md)
