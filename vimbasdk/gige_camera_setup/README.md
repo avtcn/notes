@@ -243,7 +243,9 @@ Line0有效激活一次，相机将采集一次
 
 
 ### Q6. Linux 平台下 AVT 千兆网相机的性能优化方法有哪些？
->A6. 详细方法请参考
+>A6. 详细方法请参考 [Vimba-Installation-under-Linux-Application-Note_V2.3.0.pdf](Vimba-Installation-under-Linux-Application-Note_V2.3.0.pdf) 
+以及 libpng 库安装方法：  
+[vimba-linux-libpng-installation.pdf](vimba-linux-libpng-installation.pdf)
 
 ### Q7. 本手册的PDF版本在哪里下载?
 >A7. 请点击链接 [AVT_GigE_Manual_AVTCN.pdf](AVT_GigE_Manual_AVTCN.pdf)
@@ -253,7 +255,7 @@ Line0有效激活一次，相机将采集一次
 ---
 
 ## Version
-2021/03/31
+2021/04/27
 
 
 
