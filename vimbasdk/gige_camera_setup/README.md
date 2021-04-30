@@ -247,15 +247,20 @@ Line0有效激活一次，相机将采集一次
 以及 libpng 库安装方法：  
 [vimba-linux-libpng-installation.pdf](vimba-linux-libpng-installation.pdf)
 
-### Q7. 本手册的PDF版本在哪里下载?
->A7. 请点击链接 [AVT_GigE_Manual_AVTCN.pdf](AVT_GigE_Manual_AVTCN.pdf)
+### Q7. 如何将相机采集的图片保存到视频文件?
+>A7. 参考：AsynchronousOpenCVRecorder 例程，基于QT + OpenCV 3.0 + Vimba/PvAPI  
+![](Sample-OpenCV-Recorder-Screenshot.png)
+
+
+### Q8. 本手册的PDF版本在哪里下载?
+>A8. 请点击链接 [AVT_GigE_Manual_AVTCN.pdf](AVT_GigE_Manual_AVTCN.pdf)
 
 
 
 ---
 
 ## Version
-2021/04/27
+2021/04/30
 
 
 
