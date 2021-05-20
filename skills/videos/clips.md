@@ -18,3 +18,6 @@ Vimba SDK 安装及使用指南
 
 ### Vimba Viewer 设定为MONO8格式并保存为缺省参数，断电后任然生效
 [05.pixel-format-to-mono8-and-save-to-default-userset1.wmv](https://share.weiyun.com/uVubsE0B)
+
+### GigE千兆网多相机PTP精确时间同步拍照
+[06.GigE-PTP-Multiple-Cameras-Sync-Photos.mp4](https://share.weiyun.com/uVubsE0B)
