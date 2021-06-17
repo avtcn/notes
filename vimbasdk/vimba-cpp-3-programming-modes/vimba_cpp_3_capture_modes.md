@@ -48,6 +48,9 @@ Allied Vision工业相机一般可以使用三种模式进行拍照:
 
 
 ## 其它信息
+Console版本的例子，请参考：  
+https://github.com/avtcn/VimbaCPP-OPTMV-API-Async4Sync  
+  
 联系 support@alliedvision.com 获取更多帮助。
 
 2018-11-23 14:55:29
