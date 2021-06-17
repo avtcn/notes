@@ -1,6 +1,10 @@
 Vimba C++ API 三种触发模式编程接口 API Console - OpenCamera/StartAcquire/Shot/StopAquire/CloseCamera
 ---
 
+## 代码更新
+https://github.com/avtcn/VimbaCPP-OPTMV-API-Async4Sync  
+此案例中的相关代码更新到如上连接。
+
 ## 简介
 基于Allied Vision Vimba C++ SDK实现如下简要相机操作接口：
 
