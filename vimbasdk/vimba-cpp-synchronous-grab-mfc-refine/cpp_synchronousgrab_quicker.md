@@ -59,8 +59,8 @@ C:\Users\Public\Documents\Allied Vision\Vimba_2.1\VimbaCPP_Examples\SynchronousG
 
 
 ### 结果分析
-[Acquire Single Image]按钮拍照需要的总时间包含了打开相机，取图，关闭相机的三个步骤的总时间。
-[Step1, Step2, Step3]按钮拍摄一张图片只需要点击[Step2: Capture One Photo]按钮即可，其耗费的时间就是真正拍摄一张图片的时间（曝光时间+图像数据网络传输时间），节省的时间主要是前面提到的打开相机和关闭相机的时间。
+* `[Acquire Single Image]` 按钮拍照需要的总时间包含了打开相机，取图，关闭相机的三个步骤的总时间。  
+* `[Step1, Step2, Step3]` 按钮拍摄一张图片只需要点击`[Step2: Capture One Photo]`按钮即可，其耗费的时间就是真正拍摄一张图片的时间（曝光时间+图像数据网络传输时间），节省的时间主要是前面提到的打开相机和关闭相机的时间。
 
 
 
