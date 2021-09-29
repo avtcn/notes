@@ -9,13 +9,22 @@
 
 ## 第一部分：安装Allied Vision SDK软件包Vimba
 
-### 1.1 软件下载地址（免费下载安装，无需注册）
->https://china.alliedvision.com/cn/%E4%BA%A7%E5%93%81/%E8%BD%AF%E4%BB%B6.html
+### 1.1 软件下载地址（免费下载安装，无需注册，目前版本是5.0）
+>https://china.alliedvision.com/cn/support/software-downloads/
 >![](vimba_sdk_logo.png)  
 (图1)
+```
+Vimba 是 Allied Vision GigE Vision, IEEE1394, USB3 Vision, 和 Camera Link 相机的专用软件。
+
+Vimba 包含：
+1. 在 Windows 系统下有最佳性能的驱动程序
+2. 查看器应用程序可用于即时查看图像并在不编程的情况下探索相机功能
+3. 用于多种像素格式输出的图像变换库
+4. C, C++. NET, 和 Python 接口、样例和大量用户文档
+```
 
 ### 1.2 根据您的操作系统环境，选择对应的软件版本下载（图2）
->![](vimba_download_links.png)  
+>![](vimba5_download_page.png)  
 (图2)
 
 ### 1.3 Vimba支持的相机种类和操作系统要求（图3）
