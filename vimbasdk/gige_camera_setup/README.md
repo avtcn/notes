@@ -57,6 +57,8 @@ Linux For X86/ARM的安装方式，采用自动化脚本，操作方法请参考
 打开桌面的`Vimba Driver Installer`程序，并将AVT相机驱动（GigE/USB3）都设置成Vimba 5.0或者类似最新版本：
 ![](vimba-driver-install-gige.png)
 
+### 1.7 Win7 64bit电脑系统需要打补丁
+请安装`Windows6.1-KB3033929-x64-win7 patch.msu`，以关键字`KB3033929`在网络找到它，并安装。
 
 
 ---

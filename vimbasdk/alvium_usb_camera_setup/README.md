@@ -50,6 +50,10 @@ Linux For X86/ARM的安装方式，采用自动化脚本，操作方法请参考
 ![](vimba-driver-install-usb3.png)
 
 
+### 1.7 Win7 64bit电脑系统需要打补丁
+请安装`Windows6.1-KB3033929-x64-win7 patch.msu`，以关键字`KB3033929`在网络找到它，并安装。
+
+
 ## 第二部分：Vimba Viewer的使用方法
 介绍一下相机调试工具Vimba Viewer, 双击图标启动软件（图6）
 >![](vimba_desktop_logo.png)  
