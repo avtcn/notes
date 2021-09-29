@@ -45,6 +45,10 @@ Linux For X86/ARM的安装方式，采用自动化脚本，操作方法请参考
 (图5)
 
 
+### 1.6 USB3驱动安装
+打开桌面的`Vimba Driver Installer`程序，并将AVT相机驱动（GigE/USB3）都设置成Vimba 5.0或者类似最新版本：
+![](vimba-driver-install-usb3.png)
+
 
 ## 第二部分：Vimba Viewer的使用方法
 介绍一下相机调试工具Vimba Viewer, 双击图标启动软件（图6）

@@ -53,6 +53,12 @@ Linux For X86/ARM的安装方式，采用自动化脚本，操作方法请参考
 ***驱动安装过程中会提示信任驱动安装，请选择信任。 ***
 
 
+### 1.6 GigE驱动安装
+打开桌面的`Vimba Driver Installer`程序，并将AVT相机驱动（GigE/USB3）都设置成Vimba 5.0或者类似最新版本：
+![](vimba-driver-install-gige.png)
+
+
+
 ---
 
 
