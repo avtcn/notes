@@ -36,7 +36,7 @@ This is a technical book for AVT cameras by AVTCN AE.
 	* [Vimba .NET 用异步软触发的方式实现同步采图.减少耗时](vimbasdk//VimbaNet/AsySingleGrap.md)	
 	* [Vimba .NET 双相机自由采集C#例程](https://github.com/avtcn/vmbnet_async_two_cameras_viewer/blob/main/README.md)	
 	* [Vimba .NET 设置相机参数示例：曝光时间设定](https://github.com/avtcn/vmbnet_two_cameras_viewer)	
-	* [Vimba .NET API示例：三种拍照模式编程实例-GUI]()
+	* [Vimba .NET API示例：三种拍照模式编程实例-GUI](https://github.com/avtcn/AsynchronousGrab-Forms-SW-HW-Trigger-VmbNET/blob/main/README.md)
 	* [Vimba .NET 使用Vimba编程方法进行连续拍照高速存储示例](vimbasdk/vimba_api_save_continous_photos/high_speed_save_photos.md)	
 	* [Vimba .NET API 移植 + C#/VB.Net代码实例](vimbasdk//VimbaNet/VimbaAPINET.md)	
 	
