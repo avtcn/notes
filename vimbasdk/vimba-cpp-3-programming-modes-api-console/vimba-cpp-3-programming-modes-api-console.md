@@ -137,6 +137,7 @@ int main( int argc, char* argv[] )
 
 
 ## 代码
+请至 https://github.com/avtcn/VimbaCPP-OPTMV-API-Async4Sync 下载。  
 此例子代码下载链接： 
 [VimbaCPP-OPTMV-API.zip](https://github.com/avtcn/notes/raw/master/vimbasdk/vimba-cpp-3-programming-modes-api-console/VimbaCPP-OPTMV-API.zip)  
 
