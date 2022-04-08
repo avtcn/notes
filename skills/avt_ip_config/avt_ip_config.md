@@ -13,6 +13,7 @@
 
 [:arrow_double_down:下载 AVT IP 配置工具（Vimba3.1版本）:arrow_double_down:](https://github.com/avtcn/notes/blob/master/skills/avt_ip_config/AVT_IPConfig3.1.zip)
 
+[Download Code](AVT_IPCofig%20-%204.5-code.zip)
 ## 其它
 使用软件需要下载并安装Vimba 软件
 
