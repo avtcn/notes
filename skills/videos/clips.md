@@ -24,3 +24,9 @@ Vimba SDK 安装及使用指南
 [06.GigE-PTP-Multiple-Cameras-Sync-Photos.1280.mp4](https://share.weiyun.com/uVubsE0B)
 
 
+
+
+#### 
+```
+ffmpeg -i 06.GigE-PTP-Multiple-Cameras-Sync-Photos.mp4 -c:v libx264 -crf 20 -vf "scale=1280:-1" -c:a aac -strict -2 06.GigE-PTP-Multiple-Cameras-Sync-Photos.1280.mp4
+```
